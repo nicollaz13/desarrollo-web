@@ -1,0 +1,40 @@
+/*FUENTES PERSONALIZADAS*/
+@font-face {
+    font-family: greatvibes;/* nombre de la fuente personalizada*/
+    src: url(fonts/Great_Vibes/GreatVibes-Regular.ttf); /*link de la fuente tener en cuenta que es .ttf*/
+}
+
+
+body{
+    background: lightcyan;
+    
+}
+h1{
+    font-family: "greatvibes", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+
+    /*COLORES*/
+    /*COLOR DE SISTEMA*/
+    color: mediumpurple;
+    /*COLOR HEXADECIMAL*/
+    color: #ccc;
+    /*COLOR RGB*/
+    color: rgb(141, 18, 93);
+    /*COLOR RGBA se puede agregar un nivel de transparencia*/
+    color: rgba(141, 18, 93, 0.8);
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: olive;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+
+}

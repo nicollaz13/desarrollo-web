@@ -1,0 +1,59 @@
+/*prioridad solo toma el de mas abajo los cambios realizados*/
+
+body{
+    background: rgb(173, 184, 192);
+}
+
+h1{
+    color: #0d3665;
+    font-size: 50px arial;
+    text-decoration: underline;
+    text-align: center;
+}
+a {
+    font-size: 30px arial;
+    color: rgb(5, 75, 5);
+    text-decoration: none;
+    }
+
+    #contenido{
+        border: 1px solid black;
+        padding: 10px;
+    }
+.parrafo{
+    font-size: 20px italic;
+    line-height: 1.5;
+}
+footer a{
+    color: red;
+}
+/*selector de atributo*/
+#usuario form{
+    border: 3px solid rgb(74, 226, 24);
+    margin: 10px;
+    padding: 5px;
+}
+#usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+input[type="submit"]{
+    background: #0d3665;
+    text-transform: uppercase;
+    margin: 15px;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/*selector hijos*/
+#menu_principal >li>a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
